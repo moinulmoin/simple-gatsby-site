@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	display: inline-block;
+	font-size: inherit;
+	font-family: inherit;
+	width: inherit;
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+.spaceAndCenter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navMenu {
+	width: 200px;
+}
